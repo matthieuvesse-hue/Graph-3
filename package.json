@@ -1,0 +1,16 @@
+{
+  "name": "graphiques-ca",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Générateur de graphiques CA aux couleurs Alphitan, hébergé sur Netlify avec stockage Netlify Blobs.",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "11.1.4"
+  },
+  "engines": {
+    "node": ">=22.12"
+  }
+}
